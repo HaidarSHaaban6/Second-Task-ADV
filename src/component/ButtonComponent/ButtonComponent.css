@@ -1,0 +1,60 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.icon {
+    display: inline-block;
+    color: var(--white-color);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--light-gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+
+.schedual-vist-icon {
+    width: 37px !important;
+    height: 37px !important;
+    margin-left: 0;
+}
+
+.schedual-vist-btn-with-icon {
+    width: 180px !important;
+    height: 38px !important;
+    border-radius: 30px;
+    transition: all .2s linear;
+}
+
+.schedual-vist-btn-without-icon {
+    height: 38px !important;
+    width: 180px !important;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+
+.schedual-vist-btn-without-icon:hover,
+.schedual-vist-btn-with-icon:hover {
+    background-color: var(--orange-theme-color) !important;
+    cursor: pointer;
+}
+
+.schedual-vist-btn-without-icon:hover {
+    letter-spacing: 1px;
+}
+
+.schedual-vist-btn-with-icon:hover .schedual-vist-icon {
+    background-color: var(--black-color) !important;
+}

@@ -1,0 +1,47 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 130px 0;
+}
+
+.pagination-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    transition: background-color .2s linear;
+}
+
+.pagination-button:hover {
+    background-color: var(--orange-theme-color);
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--orange-theme-color);
+}
+
+@media(max-width: 679px) {
+    .pagination-container {
+        margin: 100px 0;
+    }
+}

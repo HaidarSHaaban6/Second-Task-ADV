@@ -1,0 +1,17 @@
+.above-nav {
+    height: 55px;
+    background-color: var(--white-color);
+}
+
+.styling-span {
+    width: 1px;
+    background-color: var(--light-gray-color);
+    height: 20px;
+    margin: 20px 30px
+}
+
+@media (max-width: 992px) {
+    .above-nav {
+        display: none !important;
+    }
+}

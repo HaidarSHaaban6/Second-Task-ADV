@@ -1,0 +1,132 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+.property-card {
+    width: 30% !important;
+    margin: 20px;
+    font-size: 18px !important;
+    transition: all .2s linear;
+}
+
+.property-card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.border-radius-circle-card-img {
+    border-radius: 15px !important;
+}
+
+.adding-background-color-for-card {
+    background-color: #fdfdfd;
+}
+
+.property-room-info-item {
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: var(--gray-color);
+}
+
+.property-room-info-item span {
+    color: black !important;
+}
+
+.add-style-for-price {
+    transition: all .2s linear;
+}
+
+.add-style-for-price:hover {
+    letter-spacing: 1px;
+}
+
+.add-style-for-type {
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.border-bottom-property-room {
+    border-bottom: 1px solid var(--light-gray-color);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.center-properties-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(min-width: 992px) and (max-width: 1400px) {
+    .property-card {
+        width: 45% !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .property-card {
+        width: 40% !important;
+        margin: 20px;
+    }
+
+    .card-padding-md {
+        padding: 30px 0 !important;
+    }
+
+    .padding-top-md-50-by-haidar {
+        padding-top: 50px !important;
+    }
+}
+
+@media(min-width: 420px) and (max-width: 768px) {
+    .property-card {
+        width: 70% !important;
+        margin: 20px;
+    }
+
+    .card-padding-md {
+        padding: 30px 0 !important;
+    }
+
+    .padding-top-md-50-by-haidar {
+        padding-top: 50px !important;
+    }
+
+    .justify-content-md-center-for-cards {
+        justify-content: center !important;
+    }
+
+    .width-md-50-for-cards-header {
+        width: 70% !important;
+    }
+}
+
+@media(min-width: 40px) and (max-width: 420px) {
+    .property-card {
+        width: 90% !important;
+        margin: 20px;
+    }
+
+    .card-padding-md {
+        padding: 30px 0 !important;
+    }
+
+    .padding-top-md-50-by-haidar {
+        padding-top: 40px !important;
+    }
+
+    .justify-content-md-center-for-cards {
+        justify-content: center !important;
+    }
+
+    .width-md-50-for-cards-header {
+        width: 90% !important;
+    }
+}

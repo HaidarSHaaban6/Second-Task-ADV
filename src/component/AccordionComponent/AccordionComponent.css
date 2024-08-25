@@ -1,0 +1,19 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.accordion-component-header {
+    transition: color .2s linear;
+}
+
+.accordion-component-header:hover {
+    color: var(--orange-theme-color);
+    cursor: pointer;
+}

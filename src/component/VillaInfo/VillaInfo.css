@@ -1,0 +1,36 @@
+.info-section-container {
+    height: 120px !important;
+}
+
+.info-section {
+    height: max-content !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 35px;
+}
+
+.info-section-border {
+    border-bottom: 1px solid var(--light-gray-color);
+    margin-bottom: 25px;
+}
+
+.width-27-percent-villa-info {
+    width: 27% !important;
+}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .width-27-percent-villa-info {
+        width: 24% !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+    .width-md-30-percent-by-haidar {
+        width: 30% !important;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 768px) {
+    .font-size-md-12-by-haidar {
+        font-size: 12px !important;
+    }
+}

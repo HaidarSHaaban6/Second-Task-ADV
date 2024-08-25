@@ -1,0 +1,14 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.preperties-section {
+    min-height: 100vh;
+}

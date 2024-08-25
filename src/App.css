@@ -1,0 +1,328 @@
+#root {
+  /* Color Variable */
+  --orange-theme-color: #f35525;
+  --light-gray-color: #cdcdcd;
+  --black-color: #1e1e1e;
+  --gray-color: #535353;
+  --white-color: #ffffff;
+  --light-pink-color: #fafafa;
+  --light-orange-color: #ffeee9;
+}
+
+::selection {
+  background-color: var(--orange-theme-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-block {
+  display: block;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.flex-grow {
+  flex-grow: 100 !important;
+}
+
+.flex-direction-row {
+  flex-direction: row !important;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.color-orange {
+  color: var(--orange-theme-color) !important;
+}
+
+.color-gray {
+  color: var(--gray-color) !important;
+}
+
+.color-light-gray {
+  color: var(--light-gray-color) !important;
+}
+
+.color-white {
+  color: var(--white-color) !important;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-black {
+  color: var(--black-color);
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.padding-zero {
+  padding: 0;
+}
+
+.background-color-orange {
+  background-color: var(--orange-theme-color) !important;
+}
+
+.background-color-light-orange {
+  background-color: var(--light-orange-color) !important;
+}
+
+.background-color-black {
+  background-color: var(--black-color) !important;
+}
+
+.background-color-light-pink {
+  background-color: var(--light-pink-color) !important;
+}
+
+.background-color-white {
+  background-color: var(--white-color) !important;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-bottom-80 {
+  margin-bottom: 80px;
+}
+
+.margin-bottom-120 {
+  margin-bottom: 120px;
+}
+
+.margin-top-120 {
+  margin-top: 120px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.width-70 {
+  width: 70% !important;
+}
+
+.width-50 {
+  width: 50% !important;
+}
+
+.width-40 {
+  width: 40% !important;
+}
+
+.width-23-percent {
+  width: 23% !important;
+}
+
+.width-30-percent {
+  width: 30% !important;
+}
+
+.width-27-percent {
+  width: 27% !important;
+}
+
+.border-radius-circle {
+  border-radius: 10px !important;
+}
+
+.my-container {
+  margin: 0 10px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.height-90vh {
+  height: 90vh;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.before-line::before {
+  content: "";
+  height: 25px;
+  width: 5px;
+  background-color: var(--orange-theme-color);
+  position: absolute;
+  left: 1px;
+}
+
+.before-line {
+  position: relative;
+  padding-left: 12px;
+}
+
+.width-fit-content {
+  width: fit-content !important;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.padding-top-200 {
+  padding-top: 200px !important;
+}
+
+.padding-top-100 {
+  padding-top: 100px !important;
+}
+
+.padding-bottom-100 {
+  padding-bottom: 100px !important;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.width-50-percent {
+  width: 50% !important;
+}
+
+.width-60-percent {
+  width: 60% !important;
+}
+
+.width-25-percent {
+  width: 25% !important;
+}
+
+.width-35-percent {
+  width: 35% !important;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--light-gray-color);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.margin-y-2 {
+  margin: 0 2px;
+}
+
+.margin-x-10 {
+  margin: 0 10px;
+}
+
+.margin-y-20 {
+  margin: 20px 0;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.display-none {
+  display: none;
+}

@@ -1,0 +1,60 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.properties-section {
+    margin-top: 170px;
+    /* margin-bottom: 170px; */
+    /* margin: 170px 0; */
+}
+
+.style-properties-section-btn {
+    padding: 13px 0;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+
+.style-properties-section-btn:hover {
+    background-color: var(--orange-theme-color) !important;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .style-properties-section-btn {
+        padding: 11px 0;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .gap-md-10-for-properties-btn {
+        gap: 10px !important;
+    }
+}
+
+@media(max-width: 535px) and (min-width: 374px) {
+    .style-properties-section-btn {
+        padding: 8px 0;
+        width: 110px;
+    }
+}
+
+@media(max-width: 374px) {
+    .style-properties-section-btn {
+        padding: 5px 0;
+        width: 100px;
+    }
+}

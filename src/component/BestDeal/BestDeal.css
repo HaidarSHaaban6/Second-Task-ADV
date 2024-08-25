@@ -1,0 +1,131 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.best-deal-section {
+    min-height: 100vh;
+}
+
+.style-best-deal-btn {
+    width: 165px;
+    height: 55px;
+    border: none;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .2s linear;
+}
+
+.style-best-deal-btn:hover {
+    background-color: var(--orange-theme-color) !important;
+    letter-spacing: 2px;
+}
+
+.before-line-best-deal::before {
+    content: "";
+    height: 25px;
+    width: 5px;
+    background-color: var(--orange-theme-color);
+    position: absolute;
+    left: 1px;
+}
+
+.before-line-best-deal {
+    position: relative !important;
+    padding-left: 12px;
+}
+
+@media(max-width: 1200px) {
+
+    .width-md-100-best-deal {
+        /* order: 888; */
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .info-section {
+        width: 50% !important;
+    }
+
+    .width-60-percent {
+        width: 100% !important;
+    }
+
+    .text-align-md-center-best-deal {
+        text-align: center;
+    }
+
+    .justify-content-md-center-best-deal {
+        justify-content: center;
+    }
+
+    .justify-content-md-center-best-deal-header {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1400px) {
+    .style-best-deal-btn {
+        margin: 40px 30px 0 0 !important;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .info-section {
+        width: 35% !important;
+    }
+}
+
+@media(min-width: 460px) and (max-width: 768px) {
+    .style-best-deal-btn {
+        margin: 40px 15px 0 0 !important;
+        width: 130px;
+    }
+
+    .info-section,
+    .width-md-100-info-section-img {
+        width: 100% !important;
+    }
+}
+
+@media(min-width: 364px) and (max-width: 460px) {
+    .style-best-deal-btn {
+        margin: 40px 15px 0 0 !important;
+        width: 100px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .info-section,
+    .width-md-100-info-section-img {
+        width: 100% !important;
+    }
+}
+
+@media(min-width: 40px) and (max-width: 364px) {
+    .style-best-deal-btn {
+        margin: 40px 10px 0 0 !important;
+        width: 90px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .info-section,
+    .width-md-100-info-section-img {
+        width: 100% !important;
+    }
+}
